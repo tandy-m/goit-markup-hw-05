@@ -275,11 +275,26 @@
       </div>
 
     </footer>
-<div id="modal" class="modal">
-  <div class="modal-content">
-    <span class="close-button">&times;</span>
-    <h2>Модальне вікно</h2>
-    <p>Вміст модального вікна</p>
+<div class="modal-overlay">
+  <div class="modal">
+   <button type="button" class="modal-button">
+    <svg width="8" height="8" class="modal-svg"> 
+      <use href="./images/icons.svg#icon-close"></use>
+    </svg>
+   </button>
+    <p class="modal-p"></p>
+    <form action="">
+      <div class="modal-form">
+        <label for="user-name" class="modal-labal">Name</label>
+        <div class="modal-div">
+          <input id="user-name" 
+          name="user-name"
+          type="text" class="modal-input">
+          <svg width="18" height="24" class="svg-input"> <use href="./images/icons.svg#icon-human"></use></svg>
+        </div>
+        
+      </div>
+    </form>
   </div>
 </div>
 
