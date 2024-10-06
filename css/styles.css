@@ -212,6 +212,25 @@ button {
   display: inline-flex;
   align-items: center;
   justify-content: center;
+  fill: transparent;
+}
+input:checked .modal-span {
+  background-color: var(--background-color, #404bbf);
+  border: none;
+  fill: var(--color, #f4f4fd);
+}
+.modal-link {
+  color: var(--color, #4d5ae5);
+}
+.modal-final-buttom {
+  display: block;
+  min-width: 169px;
+  height: 56px;
+  font-family: "Roboto", sans-serif;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 1.5;
+  letter-spacing: 0.04em;
 }
 /**-------------header-------------------**/
 .header {
