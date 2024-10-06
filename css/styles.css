@@ -720,9 +720,9 @@ svg {
 }
 .sub-form {
   display: flex;
+  gap: 24px;
 }
 .sub-label {
-  gap: 24px;
 }
 .sub-input {
   width: 264px;
