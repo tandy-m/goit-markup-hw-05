@@ -164,10 +164,7 @@ button {
 .modal-input:focus {
   border-color: #4d5ae5;
 }
-.svg-privacy {
-}
-.svg-privacy input:checked {
-}
+
 .svg-input {
   position: absolute;
   left: 16px;
@@ -175,7 +172,7 @@ button {
   transform: translateY(-50%);
   transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
-.svg-input input:focus {
+.svg-input:focus {
   fill: #4d5ae5;
 }
 .input-comment {
@@ -223,12 +220,8 @@ button {
   justify-content: center;
   fill: transparent;
 }
-input:checked .modal-span {
-  background-color: var(--background-color, #404bbf);
-  border: none;
-  fill: var(--color, #f4f4fd);
-}
-.modal-span input:checked {
+
+.modal-span:checked {
   background-color: #404bbf;
   border: none;
   fill: #f4f4fd;
