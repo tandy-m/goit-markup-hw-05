@@ -213,7 +213,7 @@ button {
   cursor: pointer;
   transition: border-color 0.3s ease;
 }
-.check-input:checked .modal-span {
+.modal-span input:checked {
   background-color: var(--color, #404bbf);
   border: none;
   fill: #f4f4fd;
@@ -238,11 +238,11 @@ button {
   fill: transparent;
 }
 
-.modal-span:checked {
+/* .modal-span:checked {
   background-color: #404bbf;
   border: none;
   fill: #f4f4fd;
-}
+} */
 .modal-link {
   color: var(--color, #4d5ae5);
 }
