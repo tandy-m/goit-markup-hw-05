@@ -167,9 +167,6 @@ button {
 .svg-privacy {
 }
 .svg-privacy input:checked {
-  background-color: #404bbf;
-  border: none;
-  fill: #f4f4fd;
 }
 .svg-input {
   position: absolute;
@@ -230,6 +227,11 @@ input:checked .modal-span {
   background-color: var(--background-color, #404bbf);
   border: none;
   fill: var(--color, #f4f4fd);
+}
+.modal-span input:checked {
+  background-color: #404bbf;
+  border: none;
+  fill: #f4f4fd;
 }
 .modal-link {
   color: var(--color, #4d5ae5);
