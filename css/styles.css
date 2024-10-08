@@ -205,9 +205,9 @@ button {
   align-items: center;
 }
 .check-input {
-  /* appearance: none;
+  appearance: none;
   -webkit-appearance: none;
-  -moz-appearance: none; */
+  -moz-appearance: none;
   outline: none;
   cursor: pointer;
   transition: border-color 0.3s ease;
@@ -230,10 +230,10 @@ button {
   border: none;
   fill: #f4f4fd;
 } */
-input[type="checkbox"]:checked + span {
+input[type="checkbox"]:checked span {
   background-color: var(--color1, #4d5ae5);
   border: none;
-  fill: #f4f4fd;
+  fill: var(--color1, #f4f4fd);
 }
 .user-privacy {
   font-size: 12px;
