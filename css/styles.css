@@ -73,7 +73,7 @@ button {
   transition: opacity 250ms cubic-bezier(0.4, 0, 0.2, 1),
     visibility 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
-.modal-overlay.modal-overlay:is-open {
+.modal-overlay.is-open {
   opacity: 1;
   pointer-events: auto;
 }
@@ -87,10 +87,12 @@ button {
     0px 2px 1px rgba(0, 0, 0, 0.2);
   width: 408px;
   min-height: 584px;
-  overflow: auto;
+  overflow-y: auto;
   background: #fcfcfc;
   transition: transform 250ms cubic-bezier(0.4, 0, 0.2, 1);
   padding: 72px 24px 24px 24px;
+  align-items: center;
+  justify-content: center;
 }
 .modal-button {
   position: absolute;
@@ -239,6 +241,13 @@ input:checked .modal-span {
   background-color: #4d5ae5;
   border: none;
   transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  margin-left: auto;
+  margin-right: auto;
+  top: 584px;
+  left: 635px;
+  padding: 16px 32px 16px 32px;
+  gap: 10px;
+  border-radius: 4px 4px 4px 4px;
 }
 /**-------------header-------------------**/
 .header {
@@ -696,6 +705,7 @@ svg {
   align-items: center;
   justify-content: center;
   background-color: #31d0aa;
+  margin-right: auto;
 }
 .footer-link {
   background-color: var(--background-color, #4d5ae5);
@@ -709,6 +719,10 @@ svg {
 }
 .svg-item-footer {
   fill: #f4f4fd;
+}
+.subscribe {
+  margin-left: 80px;
+  display: block;
 }
 .sub-text {
   margin-bottom: 16px;
