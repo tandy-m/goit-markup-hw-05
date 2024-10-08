@@ -212,7 +212,7 @@ button {
   cursor: pointer;
   transition: border-color 0.3s ease;
 }
-:root {
+/* :root {
   --primary-color: #404bbf;
   --icon-color: #f4f4fd;
 }
@@ -226,6 +226,11 @@ button {
   border: none;
 }
 .svg-input input:checked {
+  background-color: var(--color1, #4d5ae5);
+  border: none;
+  fill: #f4f4fd;
+} */
+input[type="checkbox"]:checked + span {
   background-color: var(--color1, #4d5ae5);
   border: none;
   fill: #f4f4fd;
