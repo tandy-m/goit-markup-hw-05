@@ -139,6 +139,7 @@ button {
 }
 .modal-form {
   margin-bottom: 8px;
+  position: relative;
 }
 .modal-label {
   font-size: 12px;
@@ -175,6 +176,9 @@ button {
 .svg-input:focus {
   fill: #4d5ae5;
 }
+.modal-input:focus .svg-input {
+  fill: #4d5ae5;
+}
 .input-comment {
   margin-bottom: 16px;
 }
@@ -198,8 +202,21 @@ button {
 }
 .modal-checkbox {
   margin-bottom: 24px;
+  display: flex;
+  align-items: center;
 }
 .check-input {
+  /* appearance: none;
+  -webkit-appearance: none;
+  -moz-appearance: none; */
+  outline: none;
+  cursor: pointer;
+  transition: border-color 0.3s ease;
+}
+.check-input:checked .modal-span {
+  background-color: var(--color, #404bbf);
+  border: none;
+  fill: #f4f4fd;
 }
 .user-privacy {
   font-size: 12px;
