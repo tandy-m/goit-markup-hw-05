@@ -166,7 +166,7 @@ button {
 }
 .svg-privacy {
 }
-input:checked .svg-privacy {
+.svg-privacy input:checked {
   color: #404bbf;
   border: none;
   fill: #f4f4fd;
@@ -178,7 +178,7 @@ input:checked .svg-privacy {
   transform: translateY(-50%);
   transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
-input:focus .svg-input {
+.svg-input input:focus {
   fill: #4d5ae5;
 }
 .input-comment {
