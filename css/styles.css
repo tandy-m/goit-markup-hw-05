@@ -230,7 +230,7 @@ button {
   border: none;
   fill: #f4f4fd;
 } */
-input[type="checkbox"]:checked span {
+input:checked + label > span {
   background-color: var(--color1, #4d5ae5);
   border: none;
   fill: var(--color1, #f4f4fd);
