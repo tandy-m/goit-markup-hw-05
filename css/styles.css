@@ -174,7 +174,7 @@ button {
   transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-.svg-input input:focus {
+input:focus .svg-input {
   fill: #4d5ae5;
 }
 
@@ -212,26 +212,9 @@ button {
   cursor: pointer;
   transition: border-color 0.3s ease;
 }
-/* :root {
-  --primary-color: #404bbf;
-  --icon-color: #f4f4fd;
-}
 
-.modal-input:checked + .svg-input {
-  fill: var(--icon-color);
-}
-
-.modal-input:checked + .svg-input + span {
-  background-color: var(--primary-color);
-  border: none;
-}
-.svg-input input:checked {
-  background-color: var(--color1, #4d5ae5);
-  border: none;
-  fill: #f4f4fd;
-} */
 input:checked + label > span {
-  background-color: var(--color1, #4d5ae5);
+  background-color: var(--color1, #404bbf);
   border: none;
   fill: var(--color1, #f4f4fd);
 }
