@@ -237,11 +237,6 @@ input:checked + label > span {
   fill: transparent;
 }
 
-/* .modal-span:checked {
-  background-color: #404bbf;
-  border: none;
-  fill: #f4f4fd;
-} */
 .modal-link {
   color: var(--color, #4d5ae5);
 }
@@ -591,7 +586,6 @@ svg {
 .ben-p {
   position: absolute;
   top: 0;
-
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
@@ -692,7 +686,6 @@ svg {
   letter-spacing: 0.03em;
   text-transform: uppercase;
   color: #4d5ae5;
-
   margin-bottom: 16px;
   display: inline-block;
 }
@@ -788,6 +781,11 @@ input::placeholder {
   background-color: #4d5ae5;
   border: none;
   border-radius: 4px;
+}
+.sub-button:hover,
+.sub-button:focus {
+  background-color: #31d0aa;
+  transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 .sub-svg {
   margin-left: 16px;
